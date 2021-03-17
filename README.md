@@ -5,7 +5,7 @@ Code for "Incorporating equity in infectious disease modeling: case study of a d
 # 1. Functions #
 * All functions used for the analysis provided in all_functions_feb8.R script 
 * Script should be run prior to all_figures.R
-* All data output provided in the out folder
+* All intermediate data output provided in the out folder
 
 # 2. Figures #
 * Code used to produce figures provided in all_figures.R script
