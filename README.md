@@ -1,4 +1,4 @@
-# EconSIR_model
+# EconSIR 
 
 Code for "Incorporating equity in infectious disease modeling: case study of a distributional impact framework for measles transmission" by Tigist F. Menkir, Abdulrahman Jbaily, and Stéphane Verguet
 
