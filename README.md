@@ -13,5 +13,5 @@ Code for "Incorporating equity in infectious disease modeling: case study of a d
 
 # 3. Format of repo #
 * Scripts - all scripts 
-* Out - all output CSVs 
+* Out - intermediate output CSV 
 * Figures - all figure PDFs
