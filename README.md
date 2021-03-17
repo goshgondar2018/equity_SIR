@@ -1,4 +1,4 @@
-# Equity in infectious disease modeling: All code, data, and figures
+# Equity in infectious disease modeling analysis: All code, data, and figures
 
 Code for "Incorporating equity in infectious disease modeling: case study of a distributional impact framework for measles transmission" by Tigist F. Menkir, Abdulrahman Jbaily, and Stéphane Verguet
 
