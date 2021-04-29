@@ -27,8 +27,7 @@ N1 <- 15000; N2 <- 15000; N3 <- 15000; N4 <- 15000; N5 <- 15000
 N_total <- N1+N2+N3+N4+N5
 
 # ESIR model
-dx.dt.ESIR <- function(t, y, parms) { #MAKE SURE YOU UPDATE THE NUMBER OF PEOPLE PER INCOME QUINTILE
-  # AJ: first line only true when nu and mu are equal in quintile 
+dx.dt.ESIR <- function(t, y, parms) { 
   dS1 <- (1-parms["p1"])*parms["nu1"]*(y["S1"]+y["I1"]+y["R1"])+
     - parms["beta11"]*(y["S1"]*y["I1"])+                     
     - parms["beta21"]*(y["S1"]*y["I2"])+
