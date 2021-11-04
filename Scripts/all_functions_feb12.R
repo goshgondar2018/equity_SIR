@@ -627,7 +627,7 @@ ESIR_vaccination_scenarios<-function(vaccination_scenario_list){
       }
     }
     
-    # draw two random values for R3j using a gamma dist. 
+    # draw two random values for R3j using a uniform dist. 
     # with mean equal to the previously sampled sum of Rij terms for quintile 1 / n - previously defined optimal R23 and R13
     # (noting the symmetry R23=R32 and R13=R31)
     each_value_R3j_df=data.frame(matrix(nrow=n2,ncol=2))
@@ -658,7 +658,7 @@ ESIR_vaccination_scenarios<-function(vaccination_scenario_list){
       }
     }
     
-    # draw two random values for R4j using a gamma dist. 
+    # draw two random values for R4j using a uniform dist. 
     # with mean equal to the previously sampled sum of Rij terms for quintile 1 / n - previously defined optimal R34 and R24 and R14
     # (noting the symmetry R34=R43 and R24=R42 and R14=R41)
     each_value_R4j_df=data.frame(matrix(nrow=n2,ncol=1))
